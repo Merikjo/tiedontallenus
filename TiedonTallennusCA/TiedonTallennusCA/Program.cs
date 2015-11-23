@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace TiedonTallennusCA
 {
     class Program
     {
+        private static string syöte;
+
         static void Main(string[] args)
         {
             int lämpötila = 0;
