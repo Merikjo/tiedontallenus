@@ -27,8 +27,8 @@ namespace TiedonTallennusCA
                 Console.WriteLine("Tervetuloa");
             }
                 int lämpötila = 0;
-            //Console.Write("Anna uusi lämpötila: ");
-            //string syöte = Console.Readline();
+            
+            string syöte = Console.ReadLine();
             lämpötila = int.Parse(syöte);
 
             //tiedostoon kirjoittaminen
